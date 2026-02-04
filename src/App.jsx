@@ -26,7 +26,7 @@ function App(){
 
   return (
     <div style={{height:"100%" ,background:"white" ,padding:"10px 0px"}}>
-      <button onClick={addPost}>Add Post</button>
+      <button style={{background:"lightblue",padding:"5px"}} onClick={addPost}>Add Post</button>
       <div> 
         {PostComponents}
       </div>
